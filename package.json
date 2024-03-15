@@ -1,0 +1,19 @@
+{
+  "name": "hattip-nodejs-demo",
+  "version": "1.0.0",
+  "description": "A sample Hattip application to showcase its Node.js integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/entry-node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hattip/adapter-node": "^0.0.44",
+    "@hattip/response": "^0.0.44",
+    "@hattip/router": "^0.0.44"
+  }
+}
